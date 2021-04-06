@@ -1,0 +1,112 @@
+/*업데이트 뉴스 구간*/
+.content1 {
+    display: flex;
+    color: lightcyan;
+    background-color: black;
+    flex: 0.05;
+    margin: 20px 10px 5px 10px;
+    border-bottom: black solid 1px;
+
+}
+
+
+.content2 {
+    display: flex;
+    flex: 0.25;
+    margin: 2px 10px 10px 10px;
+    justify-content: space-between;
+    
+}
+
+.updated-content1 {
+    display: flex;
+    font-size: 15px;
+    color: black;
+    flex: 0.3;
+    flex-direction: column;
+    font-family: 'Poor Story', cursive;
+}
+
+/*업데이트 뉴스 타이틀*/
+.content-title-1 {
+    margin-left: 10px;
+}
+
+/*게시판과 사진함 버튼 구간*/
+.board {
+    background-color: linen;
+    color: brown;
+    border-radius : 3px;
+    
+}
+
+.photo {
+    background-color: mintcream;
+    color: seagreen;
+    border-radius : 3px;
+}
+
+.a1 {
+    margin: 2px;
+    font-size: 15px;
+}
+
+
+/*다이어리~방명록 글 갯수 구간*/
+.updated-content2 {
+    display: flex;
+    font-size: 15px;
+    color: black;
+    flex: 0.5;
+    flex-direction: column;
+    font-family: 'Poor Story', cursive;
+}
+
+.category {
+    display: flex;
+    border-bottom: 1px dashed;
+    padding: 5px 0;
+}
+
+
+
+.item1 {
+    flex: 1;
+}
+
+
+
+
+/*미니룸*/
+.content3 {
+    display: flex;
+    color: lightcyan;
+    background-color: black;
+    margin: 0px 10px 0px 10px;
+    border-bottom: black solid 1px;
+}
+
+/*미니룸 타이틀*/
+.content-title-2 {
+    margin-left: 10px;
+}
+
+
+
+/*가운데 하단 공백*/
+.content-x {
+    display: flex;
+    color: black;
+    flex: 0.7;
+}
+
+
+.content-pic {
+    padding: 10px;
+    margin-left: 8px;
+}
+
+
+
+
+

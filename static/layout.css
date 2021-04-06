@@ -1,0 +1,265 @@
+/* 패딩과 마진 초기화*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* 배경 지정하기*/
+body{
+    background-image: url(../static/images/pattern.png);
+    background-color: #424243;
+    background-size: 100px;
+}
+
+.bookcover{
+    background-color: black;
+    position: relative;
+    height: 650px;
+    width: 1000px;
+    top: 60px;
+    left: 270px;
+    border-radius : 5px;
+}
+
+.bookdot{
+    background-color: black;
+    position: absolute;
+    border-style : dashed; color: skyblue;
+    height: 630px;
+    width: 976px;
+    top: 8px;
+    left: 10px;
+    border-radius : 5px;
+}
+
+.page{
+    background-color: #E6E6E6;
+    position: absolute;
+    height: 620px;
+    width: 966px;
+    top: 5px;
+    left: 5px;
+    border-radius : 5px;
+    display: flex;
+}
+
+
+
+/*컨테이너 박스 왼쪽(프로필)*/
+.column1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    margin: 10px;
+    
+}
+
+
+/*상단 글자*/
+
+.top1 {
+    display: flex;
+    flex: 0.1;
+}
+
+.left-letter {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    flex: 1.2;
+    margin: 15px;
+}
+
+
+/*왼쪽 박스 부분*/
+
+.box1 {
+    display: flex;
+    flex: 1;
+    border-radius : 5px;
+    border: solid 2px #C9CCCC;
+    background-color: white;
+    flex-direction: column;
+}
+
+.profile-pic {
+    display: flex;
+    flex: 0.3;
+    width: 160px;
+    height: 160px;
+    padding: 25px 25px 10px 25px;
+}
+
+.profile-text {
+    display: flex;
+    flex: 0.5;
+    color: black;
+    padding: 0 25px 25px 25px;
+    font-size: 20px;
+    font-family: 'Hi Melody', cursive;
+}
+
+.profile-text2 {
+    display: flex;
+    flex: 0.1;
+    padding: 0 25px 5px 25px;
+    color: black;
+    font-family: 'Hi Melody', cursive;
+}
+
+.profile-dropdown {
+    flex: 0.04;
+    border: 1px solid #c9d4da;
+    padding: 5px;
+    margin-top: 10px;
+    margin: 0 20px 20px 20px;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+
+.dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-title {
+    color: black;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-top: 5px solid #838383;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.profile-dropdown:hover > .dropdown-content {
+    display: block;
+}
+
+.dropdown-content > a {
+    display: block;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+/*컨테이너 박스 가운데(내용)*/
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0.9;
+    margin: 10px 0px 10px 10px;
+}
+
+/*가운데 박스 부분*/
+
+.box2 {
+    display: flex;
+    flex: 1;
+    border-radius : 5px;
+    border: solid 2px #C9CCCC;
+    background-color: white;
+    flex-direction: column;
+}
+
+/*상단 글자*/
+
+.top2 {
+    display: flex;
+    flex: 0.1;
+    justify-content: space-between;
+}
+
+.middle-letter1 {
+    display: flex;
+    flex: 0.5;
+    margin: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+
+.middle-letter2 {
+    display: flex;
+    flex: 0.3;
+    margin: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+
+.content-x {
+    display: flex;
+}
+
+.content-pic {
+    padding: 35px;
+}
+
+
+
+/*컨테이너 박스 오른쪽(메뉴)*/
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    flex: 0.18;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    background-color: #E5E5E5;
+    border: solid 2px #C9CCCC;
+    margin: 10px 10px 10px 0px;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 0 0;
+}
+
+.menu-icon li {
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 2px 8px 2px 2px;
+    margin: 6px 0px ;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poor Story', cursive;
+}
+
+.menu-icon li a {
+    text-decoration: none;
+    color: goldenrod;
+}
+

@@ -1,0 +1,79 @@
+/*사진첩 구간*/
+.box2 {
+    position: relative;
+}
+
+.scroll-box {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    overflow: auto;
+}
+
+.guestbook-box {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.guestbook-title {
+    height: 2rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    font-size: 0.8rem;
+}
+
+.guestbook-date {
+    color: royalblue;
+    font-size: 0.7rem;
+    margin-left: 0.8rem;
+    font-weight: 800;
+}
+
+
+.guestbook-contents {
+    padding: 1rem;
+    display: flex;
+    
+}
+
+
+.guestbook-image {
+    flex: 0 0 8rem;
+    height: 8rem;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guestbook-image > img {
+    width: 80%;
+}
+
+.background-1 {
+    background-image: url("./images/background-1.jpg");
+    border-radius: 3rem;
+}
+
+.background-2 {
+    background-image: url("./images/background-2.jpg");
+    border-radius: 3rem;
+}
+
+.background-3 {
+    background-image: url("./images/background-3.jpg");
+    border-radius: 3rem;
+}
+
+.guestbook-text {
+    font-size: 1rem;
+    color: black;
+    padding: 20px 3px 20px 20px;
+    font-family: 'Poor Story', cursive;
+    text-align: left;
+}

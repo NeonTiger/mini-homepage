@@ -1,0 +1,124 @@
+/*다이어리 구간*/
+.box2 {
+    position: relative;
+    width: 597px;
+}
+
+
+/*달력*/
+.calendar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    height: 3rem;
+
+    border: 0.5px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.calendar-date {
+    color: cadetblue;
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.calendar-day {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.day {
+    flex: 0 0 1.5rem;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin: 1.5px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: royalblue;
+}
+
+
+/*다이어리 부분*/
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    overflow: auto;
+    
+}
+
+
+
+.diary-contents {
+    padding: 1.5rem;
+    border: 1px solid black;
+    margin-bottom: 1.5rem;
+    
+}
+
+
+.diary-contents-date {
+    font-size: 0.7rem;
+    color: cadetblue;
+    margin-bottom: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.diary-contents-text {
+    font-size: 0.8rem;
+    color: black;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*버튼*/
+.button-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.secret-button {
+    background: #fff;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    
+    transition: 800ms ease all;
+    border: none;
+}
+
+.secret-button:hover {
+    color:black;
+    background: whitesmoke;
+    border: 1px solid silver;
+}    
+
+.fas {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    
+}
+
+#secret-box {
+    display: none;
+    color: black;
+    font-family: 'Poor Story', cursive;
+    text-align: center;
+}
