@@ -10,7 +10,7 @@ body{
     background-color: #424243;
     background-size: 100px;
     
-    /*기본 body 사이즈를 화면 크기로 고정*/
+/*기본 body 사이즈를 화면 크기로 고정*/
     position: fixed;
     top: 0;
     right: 0;
